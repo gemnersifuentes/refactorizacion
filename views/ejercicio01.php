@@ -18,7 +18,7 @@
             <div class="col-sm-12 col-lg-6">
                 <form action="" method="post" ">
 
-                <?php if (!isset($_POST['nombre']) && !isset($_POST['email']) && !isset($_POST['edad'])) { ?>
+             
   
 
                     <label for=" nombre" class="block text-sm font-medium text-gray-700">Nombre: </label>
@@ -35,8 +35,8 @@
                     <input type="number" name="edad" class="form-control mt-1 block w-full border border-gray-300 rounded-md p-2 text-sm" required>
 
 
-                    <button type="submit" class="btn btn-primary w-full mt-4 bg-blue-500 text-white py-2 px-4 rounded-md text-sm">Enviar</button>
-                <?php } ?>
+                    <button type="submit" class="btn mb-5 btn-primary w-full mt-4 bg-blue-500 text-white py-2 px-4 rounded-md text-sm">Enviar</button>
+          
 
                 <!-- Mostrar los datos ingresados después de enviar el formulario -->
 

@@ -57,11 +57,11 @@ $clientes = [
         <h1 class="text-center mb-4">Lista de Clientes</h1>
         
         <!-- Tabla de Clientes -->
-        <div class="card ">
+        <div class="card mb-5">
             <div class="card-header bg-danger text-white">
                 <h5>Datos</h5>
             </div>
-            <div class="card-body p-3">
+            <div class="card-body p-3 ">
                 <table class="table table-striped mb-0 table-bordered">
                     <thead class="thead-wite">
                         <tr>

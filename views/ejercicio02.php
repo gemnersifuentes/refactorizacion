@@ -21,7 +21,7 @@
 
         <!-- Tabla de Clientes -->
         <form action="" method="post">
-            <div class="card ">
+            <div class="card mb-5">
                 <div class="card-header bg-primary text-white">
                     <h5>Datos</h5>
                 </div>
@@ -54,10 +54,11 @@
                     </div>
 
                 </div>
-            </div>
-            <div class="card-footer">
+                <div class="card-footer">
                 <button type="submit" class="btn btn-primary">Calcular</button>
             </div>
+            </div>
+           
         </form>
     </div>
 
